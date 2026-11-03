@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Notebooks: exploration only, never source of truth
+notebooks/.ipynb_checkpoints/
+
+# Secrets (FRED / EIA API keys go in GitHub Secrets, never in the repo)
+.env
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
